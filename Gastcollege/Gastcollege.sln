@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{EA822779-64D4-4715-9A6A-7A866D70543E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{CBA85061-F119-45A9-AF60-6C648F33D7AF}"
+	ProjectSection(SolutionItems) = preProject
+		Kubernetes\Pod.yaml = Kubernetes\Pod.yaml
+		Kubernetes\weatherapp-service.yaml = Kubernetes\weatherapp-service.yaml
+		Kubernetes\HorizontalAutoScaler.yaml = Kubernetes\HorizontalAutoScaler.yaml
+		Kubernetes\Deployment.yaml = Kubernetes\Deployment.yaml
+		Kubernetes\ClusterIpService.yaml = Kubernetes\ClusterIpService.yaml
+		Kubernetes\Ingress.yaml = Kubernetes\Ingress.yaml
+		Kubernetes\IngressNodePort.yaml = Kubernetes\IngressNodePort.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA822779-64D4-4715-9A6A-7A866D70543E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA822779-64D4-4715-9A6A-7A866D70543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA822779-64D4-4715-9A6A-7A866D70543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA822779-64D4-4715-9A6A-7A866D70543E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: weatherapp
+spec:
+  selector:
+    matchLabels:
+      app: weatherapp
+  template:
+    metadata:
+      labels:
+        app: weatherapp
+    spec:
+      containers:
+        - name: weatherapp-container
+          image: weatherapp:latest
+          imagePullPolicy: Never
+          resources:
+            limits:
+              cpu: "250m"
+              memory: "500Mi"
+          ports:
+            - containerPort: 80
